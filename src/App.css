@@ -3,6 +3,7 @@
 :root{
   --primary-color:#000;
   --secondry-color:red;
+  --secondry2-color: #000080;
 }
 
 h1, h2, h3, h4,h5, h6{
@@ -15,6 +16,11 @@ p{
 a{
   text-decoration: none !important;
 }
+
+.thougtsContainer{
+  margin: 20px 0;
+}
+
 .thoughtsContent{
   border: 1px solid #000;
   border-radius: 10px;
@@ -41,4 +47,12 @@ a{
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+.content_show h4{
+  font-weight: 600;
+}
+.content_show{
+  box-shadow: 0 1px 5px 2px #000080;
+  padding: 10px;
+      border-radius: 10px;
 }

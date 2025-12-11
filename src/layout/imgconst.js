@@ -1,5 +1,5 @@
 
 
 export const Images ={
-    Bhsishm_URL: "/images/Statue_of_Bhishma.jpg",
+    Bhishma_URL: "/images/statue_of_Bhishma.jpg",
 }

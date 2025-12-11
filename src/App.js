@@ -16,9 +16,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Layout/>}></Route>
           <Route path='/aboutMe' element={<Aboutme />}></Route>
-          <Route path='/thoughts' element={<Thought />}>
-            <Route path='/thoughts/vyakhan' element={<Vyakhan />} />
-          </Route>
+          <Route path='/thoughts' element={<Thought />} />
+          <Route path='/vyakhan' element={<Vyakhan />} />
         </Routes>
         <Footer />
       </Router>
