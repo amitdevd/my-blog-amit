@@ -1,33 +1,12 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="utf-8"/>
-  <link rel="icon" href="/my-blog-amit/favicon.ico"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <meta name="theme-color" content="#000000"/>
-  <meta name="description" content="Web site created using create-react-app"/>
-  <link rel="apple-touch-icon" href="/my-blog-amit/logo192.png"/>
-  <link rel="manifest" href="/my-blog-amit/manifest.json"/>
-  <title>My Blogs</title>
-
-  <!-- redirect for GitHub Pages -->
+  <meta charset="UTF-8" />
   <script>
-    // If GitHub Pages serves 404.html, redirect to index.html
-    (function() {
-      var redirect = sessionStorage.redirect;
-      delete sessionStorage.redirect;
-      if (redirect && redirect !== location.href) {
-        history.replaceState(null, null, redirect);
-      }
-    })();
+    // Redirect all routes to index.html for React Router
+    sessionStorage.redirect = location.href;
+    window.location.replace("/");
   </script>
-
-  <script defer="defer" src="/my-blog-amit/static/js/main.2ca63bce.js"></script>
-  <link href="/my-blog-amit/static/css/main.c2396bfa.css" rel="stylesheet">
 </head>
-
-<body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
-</body>
+<body></body>
 </html>
